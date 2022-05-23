@@ -151,7 +151,7 @@ a {
 .subtitulo {
   display: grid;
   grid-template-columns: 1fr;
-  font-family: "Turret Road", cursive;
+  font-family: "Turret Road", monospace;
   position: absolute;
   color: #ffffff;
 }
@@ -201,13 +201,18 @@ a {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 375px) {
   .h1-sub {
     margin-left: 20px;
-    font-size: 24px;
   }
 }
 
+@media (max-width: 350px) {
+  .h1-sub {
+    margin-left: 15px;
+    font-size: 24px;
+  }
+}
 .p-sub {
   margin-top: -20px;
   margin-left: 220px;
@@ -249,19 +254,15 @@ a {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .p-sub {
-    margin-left: 30px;
-    font-size: 14px;
-    line-height: 18px;
+    margin-left: 20px;
   }
 }
 
 @media (max-width: 350px) {
   .p-sub {
-    margin-left: 20px;
-    font-size: 13px;
-    line-height: 17px;
+    margin-left: 15px;
   }
 }
 
