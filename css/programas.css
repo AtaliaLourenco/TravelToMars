@@ -1,0 +1,316 @@
+/** LISTA DE PROGRAMAS PAGINA HOME **/
+.programa-lista-principal {
+  box-sizing: border-box;
+  margin-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1030px) {
+  .programa-lista-principal {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 1000px) {
+  .programa-lista-principal {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .programa-lista-principal {
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .programa-lista-principal {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .programa-lista-principal {
+    padding-top: 30px;
+  }
+}
+
+.programa-lista-principal ul {
+  display: flex;
+  gap: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 500px) {
+  .programa-lista-principal ul {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1600px) {
+  .programa-lista-principal ul {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .programa-lista-principal ul {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .programa-lista-principal ul {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .programa-lista-principal ul {
+    gap: 15px;
+  }
+}
+
+.programas-lista {
+  font-family: "Space Mono";
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .programas-lista {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .programas-lista {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .programas-lista {
+    font-size: 18px;
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 280px) {
+  .programas-lista {
+    font-size: 18px;
+    margin-left: -10px;
+  }
+}
+
+.img-lista-programas {
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1600px) {
+  .img-lista-programas {
+    max-width: 90%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .img-lista-programas {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-lista-programas {
+    max-width: 80%;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  .img-lista-programas {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-lista-programas {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .img-lista-programas {
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 280px) {
+  .img-lista-programas {
+    margin-left: -10px;
+  }
+}
+
+.h3-titu-lista {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1400px) {
+  .h3-titu-lista {
+    font-size: 23px;
+    margin-bottom: 2px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .h3-titu-lista {
+    font-size: 21px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .h3-titu-lista {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 800px) {
+  .h3-titu-lista {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .h3-titu-lista {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .h3-titu-lista {
+    font-size: 18px;
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 420px) {
+  .h3-titu-lista {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 384px) {
+  .h3-titu-lista {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 376px) {
+  .h3-titu-lista {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 321px) {
+  .h3-titu-lista {
+    margin-left: -7px;
+  }
+}
+
+@media (max-width: 280px) {
+  .h3-titu-lista {
+    margin-left: -10px;
+  }
+}
+
+.p-lista-programas {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1600px) {
+  .p-lista-programas {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .p-lista-programas {
+    font-size: 21px;
+    margin-bottom: 2px;
+    line-height: 28px;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .p-lista-programas {
+    font-size: 19px;
+    line-height: 25px;
+    max-width: 330px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .p-lista-programas {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 800px) {
+  .p-lista-programas {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .p-lista-programas {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .p-lista-programas {
+    font-size: 15px;
+    line-height: 17px;
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 420px) {
+  .p-lista-programas {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .p-lista-programas {
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 280px) {
+  .p-lista-programas {
+    margin-left: -10px;
+    font-size: 12px;
+  }
+}
