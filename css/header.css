@@ -181,17 +181,17 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   font-family: "Turret Road", monospace;
-  position: absolute;
   color: #ffffff;
 }
 
 .h1-sub {
+  position: relative;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-transform: uppercase;
   margin-left: 220px;
-  margin-top: 430px;
+  top: 430px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -251,7 +251,8 @@ a {
 }
 
 .p-sub {
-  margin-top: -20px;
+  position: relative;
+  top: 390px;
   margin-left: 220px;
   font-weight: 600;
   font-size: 22px;
