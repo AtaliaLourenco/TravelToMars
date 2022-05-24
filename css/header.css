@@ -96,6 +96,12 @@ a {
   }
 }
 
+@media (max-width: 280px) {
+  .header {
+    margin-left: -20px;
+  }
+}
+
 .header-menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -120,6 +126,15 @@ a {
   }
 }
 
+@media (max-width: 280px) {
+  .header-menu {
+    margin-left: 20px;
+    font-size: 12px;
+    gap: 0px;
+    margin-right: 20px;
+  }
+}
+
 .header-menu a {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -128,6 +143,14 @@ a {
   display: inline-block;
   padding: 16px 0px;
   text-align: center;
+}
+
+.header-menu a:hover {
+  text-decoration: underline;
+}
+
+.header-menu a:active {
+  text-decoration: underline;
 }
 
 @media (max-width: 800px) {
@@ -145,6 +168,12 @@ a {
 @media (max-width: 350px) {
   .header-menu a {
     padding: 10px 0px;
+  }
+}
+
+@media (max-width: 280px) {
+  .header-menu a {
+    font-size: 13px;
   }
 }
 
@@ -213,6 +242,14 @@ a {
     font-size: 24px;
   }
 }
+
+@media (max-width: 280px) {
+  .h1-sub {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+}
+
 .p-sub {
   margin-top: -20px;
   margin-left: 220px;
@@ -263,6 +300,15 @@ a {
 @media (max-width: 350px) {
   .p-sub {
     margin-left: 15px;
+  }
+}
+
+@media (max-width: 350px) {
+  .p-sub {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 5px;
   }
 }
 
