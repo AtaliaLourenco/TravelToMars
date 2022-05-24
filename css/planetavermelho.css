@@ -159,6 +159,12 @@
   }
 }
 
+@media (max-width: 400px) {
+  .titu-planeta-red {
+    margin-top: -290px;
+  }
+}
+
 @media (max-width: 320px) {
   .titu-planeta-red {
     margin-top: -310px;
@@ -360,7 +366,7 @@
   .p-planeta-red {
     line-height: 17px;
     max-width: 330px;
-    margin-top: -260px;
+    margin-top: -280px;
   }
 }
 
