@@ -11,19 +11,7 @@
 }
 @media (max-width: 428px) {
   .img-planeta-red {
-    height: 300px;
-  }
-}
-
-@media (max-width: 400px) {
-  .img-planeta-red {
-    height: 300px;
-  }
-}
-
-@media (max-width: 320px) {
-  .img-planeta-red {
-    height: 300px;
+    height: 350px;
   }
 }
 
@@ -167,13 +155,7 @@
 
 @media (max-width: 428px) {
   .titu-planeta-red {
-    margin-top: -260px;
-  }
-}
-
-@media (max-width: 400px) {
-  .titu-planeta-red {
-    margin-top: -260px;
+    margin-top: -310px;
   }
 }
 
@@ -370,7 +352,7 @@
   .p-planeta-red {
     line-height: 17px;
     max-width: 390px;
-    margin-top: -200px;
+    margin-top: -260px;
   }
 }
 
@@ -378,7 +360,7 @@
   .p-planeta-red {
     line-height: 17px;
     max-width: 330px;
-    margin-top: -215px;
+    margin-top: -260px;
   }
 }
 
