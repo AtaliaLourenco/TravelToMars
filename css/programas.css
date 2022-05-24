@@ -74,7 +74,7 @@
 }
 
 .programas-lista {
-  font-family: "Space Mono";
+  font-family: "Space Mono", monospace;
   font-weight: 500;
   font-size: 30px;
   margin-bottom: 20px;
@@ -89,6 +89,13 @@
 @media (max-width: 500px) {
   .programas-lista {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 428px) {
+  .programas-lista {
+    margin-left: -10px;
+    font-size: 18px;
   }
 }
 
@@ -133,6 +140,12 @@
   }
 }
 
+@media (max-width: 428px) {
+  .img-lista-programas {
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: 420px) {
   .img-lista-programas {
     margin-left: 0px;
@@ -158,7 +171,7 @@
 }
 
 .h3-titu-lista {
-  font-family: "Space Mono";
+  font-family: "Space Mono", monospace;
   font-weight: 700;
   font-size: 25px;
   margin-bottom: 8px;
@@ -203,7 +216,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 428px) {
   .h3-titu-lista {
     margin-left: 0px;
   }
@@ -234,7 +247,7 @@
 }
 
 .p-lista-programas {
-  font-family: "Space Mono";
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -296,7 +309,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 428px) {
   .p-lista-programas {
     margin-left: 0px;
   }

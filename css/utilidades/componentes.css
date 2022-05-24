@@ -184,19 +184,28 @@
   }
 }
 
-@media (max-width: 420px) {
-  .botao1,
-  .botao2,
-  .botao3 {
-    margin-left: 0px;
-  }
-}
-
 @media (max-width: 400px) {
   .botao1,
   .botao2,
   .botao3 {
     margin-left: 10px;
+  }
+}
+
+@media (max-width: 428px) {
+  .botao1,
+  .botao2,
+  .botao3 {
+    margin-left: 0px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 420px) {
+  .botao1,
+  .botao2,
+  .botao3 {
+    margin-left: 0px;
   }
 }
 
