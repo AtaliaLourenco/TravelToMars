@@ -1,0 +1,391 @@
+.img-planeta-red {
+  max-width: 2000px;
+  width: 100%;
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media (max-width: 900px) {
+  .img-planeta-red {
+    margin-top: -40px;
+  }
+}
+@media (max-width: 428px) {
+  .img-planeta-red {
+    height: 260px;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-planeta-red {
+    height: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .img-planeta-red {
+    height: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .img-planeta-red {
+    height: 350px;
+  }
+}
+
+.titu-planeta-red {
+  max-width: 2000px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 53px;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -720px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1800px) {
+  .titu-planeta-red {
+    margin-top: -690px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .titu-planeta-red {
+    margin-top: -640px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .titu-planeta-red {
+    margin-top: -600px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .titu-planeta-red {
+    margin-top: -530px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .titu-planeta-red {
+    margin-top: -490px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .titu-planeta-red {
+    margin-top: -430px;
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .titu-planeta-red {
+    margin-top: -400px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .titu-planeta-red {
+    margin-top: -390px;
+    font-size: 40px;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 912px) {
+  .titu-planeta-red {
+    margin-top: -360px;
+    font-size: 35px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .titu-planeta-red {
+    margin-top: -350px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 820px) {
+  .titu-planeta-red {
+    margin-top: -320px;
+  }
+}
+
+@media (max-width: 800px) {
+  .titu-planeta-red {
+    margin-top: -310px;
+    font-size: 32px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .titu-planeta-red {
+    margin-top: -280px;
+  }
+}
+
+@media (max-width: 600px) {
+  .titu-planeta-red {
+    margin-top: -240px;
+    font-size: 27px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  .titu-planeta-red {
+    font-size: 27px;
+    margin-top: -225px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .titu-planeta-red {
+    font-size: 23px;
+    margin-top: -215px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 428px) {
+  .titu-planeta-red {
+    margin-top: -260px;
+  }
+}
+
+@media (max-width: 400px) {
+  .titu-planeta-red {
+    margin-top: -260px;
+  }
+}
+
+@media (max-width: 320px) {
+  .titu-planeta-red {
+    margin-top: -310px;
+  }
+}
+
+@media (max-width: 300px) {
+  .titu-planeta-red {
+    margin-top: -350px;
+  }
+}
+
+.p-planeta-red {
+  max-width: 1600px;
+  position: absolute;
+  margin-top: -650px;
+  margin-left: 120px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #ffffff;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 2000px) {
+  .p-planeta-red {
+    word-wrap: break-word;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1900px) {
+  .p-planeta-red {
+    word-wrap: break-word;
+    max-width: 1150px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .p-planeta-red {
+    word-wrap: break-word;
+    max-width: 900px;
+    margin-top: -620px;
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .p-planeta-red {
+    word-wrap: break-word;
+    margin-top: -570px;
+    max-width: 1050px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .p-planeta-red {
+    word-wrap: break-word;
+    line-height: 40px;
+    margin-top: -530px;
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .p-planeta-red {
+    margin-left: 100px;
+    margin-top: -450px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .p-planeta-red {
+    margin-top: -420px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .p-planeta-red {
+    font-size: 30px;
+    line-height: 35px;
+    word-wrap: break-word;
+    max-width: 850px;
+    margin-top: -370px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .p-planeta-red {
+    margin-top: -10px;
+    margin-top: -340px;
+    line-height: 30px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .p-planeta-red {
+    font-size: 28px;
+    line-height: 35px;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 912px) {
+  .p-planeta-red {
+    margin-left: 30px;
+    margin-top: -20px;
+    line-height: 30px;
+    margin-top: -300px;
+  }
+}
+
+@media (max-width: 900px) {
+  .p-planeta-red {
+    font-size: 25px;
+    line-height: 30px;
+    word-wrap: break-word;
+    max-width: 750px;
+  }
+}
+@media (max-width: 820px) {
+  .p-planeta-red {
+    margin-top: -20px;
+    font-size: 24px;
+    line-height: 27px;
+    margin-left: 30px;
+    margin-top: -260px;
+  }
+}
+
+@media (max-width: 800px) {
+  .p-planeta-red {
+    max-width: 700px;
+    margin-top: -10px;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 50px;
+    margin-top: -255px;
+  }
+}
+
+@media (max-width: 700px) {
+  .p-planeta-red {
+    margin-top: -20px;
+    font-size: 20px;
+    line-height: 22px;
+    word-wrap: break-word;
+    max-width: 570px;
+    margin-top: -225px;
+  }
+}
+
+@media (max-width: 600px) {
+  .p-planeta-red {
+    margin-top: -20px;
+    font-size: 18px;
+    line-height: 19px;
+    word-wrap: break-word;
+    max-width: 520px;
+    margin-left: 25px;
+    margin-top: -190px;
+  }
+}
+
+@media (max-width: 540px) {
+  .p-planeta-red {
+    margin-top: -25px;
+    font-size: 17px;
+    line-height: 18px;
+    word-wrap: break-word;
+    max-width: 470px;
+    margin-left: 30px;
+    margin-top: -180px;
+  }
+}
+
+@media (max-width: 500px) {
+  .p-planeta-red {
+    margin-top: -25px;
+    font-size: 16px;
+    line-height: 16px;
+    word-wrap: break-word;
+    max-width: 430px;
+    margin-left: 20px;
+    margin-top: -170px;
+  }
+}
+
+@media (max-width: 428px) {
+  .p-planeta-red {
+    line-height: 17px;
+    max-width: 390px;
+    margin-top: -200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .p-planeta-red {
+    line-height: 17px;
+    max-width: 330px;
+    margin-top: -215px;
+  }
+}
+
+@media (max-width: 320px) {
+  .p-planeta-red {
+    max-width: 280px;
+    margin-top: -260px;
+  }
+}
+
+@media (max-width: 300px) {
+  .p-planeta-red {
+    max-width: 230px;
+    margin-top: -300px;
+  }
+}
