@@ -42,6 +42,13 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 1800px) {
+  .programa-lista-principal ul {
+    gap: 70px;
+  }
+}
+
 @media (max-width: 1700px) {
   .programa-lista-principal ul {
     gap: 70px;

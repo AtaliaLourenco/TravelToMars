@@ -24,6 +24,12 @@
   }
 }
 
+@media (max-width: 1700px) {
+  .why-marte-principal ul {
+    gap: 30px;
+  }
+}
+
 @media (max-width: 1600px) {
   .why-marte-principal ul {
     margin-left: -70px;

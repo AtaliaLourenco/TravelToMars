@@ -303,6 +303,10 @@
   line-height: 37px;
 }
 
+.botao4:hover {
+  color: black;
+}
+
 @media (max-width: 1800px) {
   .botao4 {
     margin-right: 180px;

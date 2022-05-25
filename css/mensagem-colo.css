@@ -18,9 +18,16 @@
   margin-right: auto;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   .mensagem-colonos ul {
     gap: 70px;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .mensagem-colonos ul {
+    gap: 30px;
     margin-left: 70px;
   }
 }
