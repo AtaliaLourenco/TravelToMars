@@ -1,0 +1,361 @@
+.mensagem-colonos {
+  background-color: #fff0e6;
+  margin-top: 200px;
+  padding-bottom: 200px;
+}
+
+@media (max-width: 700px) {
+  .mensagem-colonos {
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.mensagem-colonos ul {
+  display: flex;
+  gap: 100px;
+  margin-left: 120px;
+  margin-right: auto;
+}
+
+@media (max-width: 1600px) {
+  .mensagem-colonos ul {
+    gap: 70px;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .mensagem-colonos ul {
+    gap: 0px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mensagem-colonos ul {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 90px;
+  }
+}
+
+.mensagem-colonos h3 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 59px;
+  margin-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+  .mensagem-colonos h3 {
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mensagem-colonos h3 {
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.img-colono1 {
+  max-width: 100%;
+  border-radius: 10px;
+  opacity: 70%;
+}
+
+@media (max-width: 1400px) {
+  .img-colono1 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-colono1 {
+    width: 70%;
+  }
+}
+@media (max-width: 428px) {
+  .img-colono1 {
+    width: 90%;
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-colono1 {
+    width: 90%;
+    margin-left: -30px;
+  }
+}
+@media (max-width: 300px) {
+  .img-colono1 {
+    width: 100%;
+    margin-left: -40px;
+  }
+}
+
+@media (max-width: 280px) {
+  .img-colono1 {
+    width: 110%;
+    margin-left: -50px;
+  }
+}
+
+.mensagem-colonos p {
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+@media (max-width: 1400px) {
+  .mensagem-colonos p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mensagem-colonos p {
+    font-size: 17px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mensagem-colonos p {
+    font-size: 15px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .mensagem-colonos p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .mensagem-colonos p {
+    font-size: 13px;
+    line-height: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mensagem-colonos p {
+    font-size: 12px;
+    line-height: 13px;
+  }
+}
+
+@media (max-width: 541px) {
+  .mensagem-colonos p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mensagem-colonos p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+  .mensagem-colonos p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 300px) {
+  .mensagem-colonos p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 280px) {
+  .mensagem-colonos p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+.mensagem-colonos figcaption {
+  text-align: center;
+  margin-top: -150px;
+  margin-left: 20px;
+  position: relative;
+  width: 430px;
+  opacity: 0;
+  color: black;
+  box-sizing: border-box;
+  transition: opacity 0.5s;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1400px) {
+  .mensagem-colonos figcaption {
+    width: 330px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mensagem-colonos figcaption {
+    width: 300px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .mensagem-colonos figcaption {
+    width: 280px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .mensagem-colonos figcaption {
+    width: 260px;
+    margin-top: -152px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mensagem-colonos figcaption {
+    width: 255px;
+  }
+}
+@media (max-width: 913px) {
+  .mensagem-colonos figcaption {
+    width: 220px;
+    margin-top: -150px;
+  }
+}
+
+@media (max-width: 900px) {
+  .mensagem-colonos figcaption {
+    width: 220px;
+    margin-top: -130px;
+  }
+}
+
+@media (max-width: 821px) {
+  .mensagem-colonos figcaption {
+    width: 200px;
+    margin-top: -140px;
+  }
+}
+
+@media (max-width: 800px) {
+  .mensagem-colonos figcaption {
+    width: 200px;
+    margin-top: -130px;
+  }
+}
+
+@media (max-width: 769px) {
+  .mensagem-colonos figcaption {
+    width: 180px;
+    margin-top: -135px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mensagem-colonos figcaption {
+    width: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mensagem-colonos figcaption {
+    margin-top: -140px;
+    width: 150px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 541px) {
+  .mensagem-colonos figcaption {
+    margin-top: -110px;
+    width: 130px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mensagem-colonos figcaption {
+    margin-bottom: 30px;
+    margin-top: -140px;
+    width: 280px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 428px) {
+  .mensagem-colonos figcaption {
+    width: 270px;
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .mensagem-colonos figcaption {
+    width: 250px;
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .mensagem-colonos figcaption {
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 361px) {
+  .mensagem-colonos figcaption {
+    width: 240px;
+    margin-top: -145px;
+  }
+}
+
+@media (max-width: 320px) {
+  .mensagem-colonos figcaption {
+    width: 210px;
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .mensagem-colonos figcaption {
+    width: 200px;
+    margin-left: -35px;
+  }
+}
+
+@media (max-width: 280px) {
+  .mensagem-colonos figcaption {
+    width: 180px;
+    margin-left: -45px;
+  }
+}
+
+.mensagem-colonos figcaption:hover {
+  opacity: 100%;
+}
+
+.mensagem-colonos figcaption::after {
+  opacity: 100%;
+}
