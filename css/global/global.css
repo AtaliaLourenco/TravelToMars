@@ -1,3 +1,7 @@
+html {
+  max-width: 2000px;
+}
+
 body {
   margin: 0px;
   font-family: "Space Mono", monospace;

@@ -66,10 +66,21 @@
     margin-top: -600px;
   }
 }
+@media (max-width: 1750px) {
+  .footer-container {
+    margin-top: -550px;
+  }
+}
 
 @media (max-width: 1700px) {
   .footer-container {
     margin-top: -570px;
+  }
+}
+
+@media (max-width: 1690px) {
+  .footer-container {
+    margin-top: -520px;
   }
 }
 
