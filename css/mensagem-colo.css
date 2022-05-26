@@ -57,10 +57,24 @@
   padding-bottom: 50px;
 }
 
+@media (max-width: 1025px) {
+  .mensagem-colonos h3 {
+    margin-left: 50px;
+    font-size: 28px;
+  }
+}
+
 @media (max-width: 700px) {
   .mensagem-colonos h3 {
     font-size: 28px;
     padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 543px) {
+  .mensagem-colonos h3 {
+    margin-left: 50px;
+    font-size: 20px;
   }
 }
 
