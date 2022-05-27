@@ -314,7 +314,7 @@
   margin-right: 220px;
   display: inline-block;
   padding: 16px 32px;
-  background-color: #d83b09;
+  background: linear-gradient(180deg, #ff6600 0%, #d83b09 100%);
   bottom: 5px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;

@@ -4,7 +4,7 @@
   gap: 100px;
   margin-left: 220px;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: -50px;
 }
 
 @media (max-width: 1400px) {
@@ -36,6 +36,12 @@
 @media (max-width: 400px) {
   .container-programas {
     margin-left: 10px;
+  }
+}
+
+@media (max-width: 321px) {
+  .container-programas {
+    max-width: 310px;
   }
 }
 
