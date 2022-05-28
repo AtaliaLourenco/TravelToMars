@@ -9,5 +9,6 @@
 @import "./global/footer.css ";
 @import "./programas-page.css";
 @import "./mais-sobre.css";
+@import "./pacotes.css";
 
 font-family: "Space Mono", monospace;

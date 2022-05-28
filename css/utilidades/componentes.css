@@ -34,6 +34,7 @@
   font-weight: 700;
   font-size: 25px;
   line-height: 37px;
+  border-radius: 5px;
 }
 
 .botao1:hover {
@@ -563,4 +564,21 @@
   font-size: 25px;
   line-height: 37px;
   margin-bottom: 70px;
+  border-radius: 5px;
+}
+
+.botao-mais-sobre1 {
+  display: inline-block;
+  padding: 16px 120px;
+  background: linear-gradient(180deg, #ff6600 0%, #d83b09 100%);
+  bottom: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 37px;
+  margin-bottom: 70px;
+  border-radius: 5px;
 }

@@ -492,6 +492,7 @@
   font-size: 25px;
   line-height: 37px;
   margin-left: -350px;
+  border-radius: 5px;
 }
 
 .botao-programas:hover {
