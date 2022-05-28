@@ -153,19 +153,27 @@
   }
 }
 
-.img-why-marte1,
 .img-why-marte1-1:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-.img-why-marte2,
+.img-why-marte1:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.img-why-marte2:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 .img-why-marte2-2:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-
-.img-why-marte3,
+.img-why-marte3:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 .img-why-marte3-3:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
