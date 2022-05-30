@@ -361,49 +361,44 @@
 
 @media (max-width: 600px) {
   .botao-mais-sobre {
-    font-size: 22px;
-    padding: 10px 70px;
+    font-size: 15px;
+    line-height: 0px;
+    padding: 20px 70px;
   }
 }
 @media (max-width: 430px) {
   .botao-mais-sobre {
-    font-size: 20px;
-    padding: 10px 50px;
+    padding: 20px 50px;
   }
 }
 
 @media (max-width: 400px) {
   .botao-mais-sobre {
-    font-size: 20px;
-    padding: 10px 50px;
+    padding: 20px 50px;
   }
 }
 
 @media (max-width: 380px) {
   .botao-mais-sobre {
-    font-size: 18px;
-    padding: 10px 30px;
+    padding: 20px 30px;
   }
 }
 
 @media (max-width: 330px) {
   .botao-mais-sobre {
-    font-size: 18px;
-    padding: 10px 30px;
+    padding: 20px 30px;
   }
 }
 
 @media (max-width: 300px) {
   .botao-mais-sobre {
-    font-size: 18px;
-    padding: 10px 30px;
+    padding: 20px 30px;
   }
 }
 
 @media (max-width: 290px) {
   .botao-mais-sobre {
-    font-size: 15px;
-    padding: 10px 20px;
+    padding: 20px 20px;
   }
 }
 

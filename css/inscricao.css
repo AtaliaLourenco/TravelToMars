@@ -20,6 +20,49 @@
   margin-bottom: 50px;
 }
 
+@media (max-width: 1500px) {
+  .titulo-principal h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .titulo-principal h2 {
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .titulo-principal h2 {
+    font-size: 27px;
+    line-height: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .titulo-principal h2 {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 321px) {
+  .titulo-principal h2 {
+    font-size: 21px;
+    margin-left: 20px;
+    line-height: 25px;
+  }
+}
+
 .form2 {
   border-radius: 0px 10px 10px 0px;
   margin-left: 120px;
@@ -32,14 +75,93 @@
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
+@media (max-width: 1500px) {
+  .form2 {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .form2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .form2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 540px) {
+  .form2 {
+    width: 455px;
+  }
+}
+
+@media (max-width: 500px) {
+  .form2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .form2 {
+    margin-left: 15px;
+    width: 375px;
+  }
+}
+
+@media (max-width: 385px) {
+  .form2 {
+    margin-left: 15px;
+    width: 365px;
+  }
+}
+
+@media (max-width: 375px) {
+  .form2 {
+    margin-left: 15px;
+    width: 355px;
+  }
+}
+
+@media (max-width: 321px) {
+  .form2 {
+    margin-left: 15px;
+    width: 270px;
+    gap: 0px;
+  }
+}
+
 .grid1 {
   border-radius: 10px 0px 0px 10px;
   padding: 20px;
   background-color: #d83b09;
 }
 
+@media (max-width: 1300px) {
+  .form2 {
+    grid-template-columns: 1fr;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .grid1 {
+    border-radius: 10px 10px 0px 0px;
+  }
+}
+
 .grid2 {
   padding: 20px;
+}
+
+@media (max-width: 430px) {
+  .grid2 {
+    padding: 10px;
+  }
 }
 
 .titu-form {
@@ -50,11 +172,59 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 500px) {
+  .titu-form {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 321px) {
+  .titu-form {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
 .programa-inscricao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   align-content: start;
+}
+
+@media (max-width: 430px) {
+  .programa-inscricao {
+    grid-template-columns: 1fr;
+    width: 348px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 415px) {
+  .programa-inscricao {
+    grid-template-columns: 1fr;
+    width: 335px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 385px) {
+  .programa-inscricao {
+    width: 325px;
+  }
+}
+
+@media (max-width: 375px) {
+  .programa-inscricao {
+    width: 315px;
+  }
+}
+
+@media (max-width: 321px) {
+  .programa-inscricao {
+    width: 230px;
+  }
 }
 
 .programa-inscricao > * {
@@ -79,6 +249,30 @@
   cursor: pointer;
   align-items: center;
 }
+
+@media (max-width: 500px) {
+  .programa-inscricao label {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .programa-inscricao label {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 321px) {
+  .programa-inscricao label {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 7px 7px;
+  }
+}
+
 .programa-inscricao input {
   opacity: 0;
   position: absolute;
@@ -94,6 +288,13 @@
   border: 1px solid #d83b09;
   border-radius: 50%;
   margin-right: 12px;
+}
+
+@media (max-width: 500px) {
+  .programa-inscricao label::before {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 .linha::before {
@@ -132,6 +333,24 @@
   font-size: 22px;
 }
 
+@media (max-width: 500px) {
+  .programa-inscricao input:checked + label {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 415px) {
+  .programa-inscricao input:checked + label {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 321px) {
+  .programa-inscricao input:checked + label {
+    font-size: 12px;
+  }
+}
+
 .titu-form {
   position: relative;
   display: flex;
@@ -150,8 +369,15 @@
   border-radius: 5px;
 }
 
+@media (max-width: 500px) {
+  .titu-form::before,
+  .inscricao-conteudo h2::before {
+    height: 15px;
+  }
+}
+
 .inscricao-conteudo h2 {
-  font-family: "Roboto Mono";
+  font-family: "Roboto Mono", monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -160,6 +386,20 @@
   position: relative;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 500px) {
+  .inscricao-conteudo h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 321px) {
+  .inscricao-conteudo h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 .inscricao-conteudo {
@@ -184,6 +424,20 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 500px) {
+  .formulario-dados-pessoais h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 321px) {
+  .formulario-dados-pessoais h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
 .formulario-dados-pessoais h2::before {
   content: "";
   display: inline-block;
@@ -195,10 +449,27 @@
   border-radius: 5px;
 }
 
+@media (max-width: 500px) {
+  .formulario-dados-pessoais h2::before {
+    height: 15px;
+  }
+}
+
+@media (max-width: 430px) {
+  .formulario-dados-pessoais h2::before {
+    display: none;
+  }
+}
+
 .collun {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+@media (max-width: 500px) {
+  .collun {
+    display: block;
+  }
 }
 
 .formulario-dados-pessoais input[type="text"],
@@ -216,6 +487,45 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 500px) {
+  .formulario-dados-pessoais input[type="text"],
+  .formulario-dados-pessoais input[type="email"],
+  .formulario-dados-pessoais textarea {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 430px) {
+  .formulario-dados-pessoais input[type="text"],
+  .formulario-dados-pessoais input[type="email"],
+  .formulario-dados-pessoais textarea {
+    max-width: 360px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 415px) {
+  .formulario-dados-pessoais input[type="text"],
+  .formulario-dados-pessoais input[type="email"],
+  .formulario-dados-pessoais textarea {
+    max-width: 337px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 321px) {
+  .formulario-dados-pessoais input[type="text"],
+  .formulario-dados-pessoais input[type="email"],
+  .formulario-dados-pessoais textarea {
+    max-width: 240px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
 .formulario-dados-pessoais input[type="text"]:focus,
 .formulario-dados-pessoais input[type="email"]:focus,
 .formulario-dados-pessoais textarea:focus {
@@ -231,6 +541,13 @@
   gap: 20px;
 }
 
+@media (max-width: 321px) {
+  #programas:checked ~ #inscricao-programas,
+  #excursao:checked ~ #inscricao-excursao {
+    gap: 10px;
+  }
+}
+
 .programas-detalhes,
 .programas-detalhes1 {
   background-color: #ffe0cc;
@@ -240,10 +557,25 @@
   align-items: center;
   display: none;
 }
+
+@media (max-width: 1000px) {
+  .programas-detalhes,
+  .programas-detalhes1 {
+    padding: 10px;
+  }
+}
+
 .programas-detalhes p {
   align-items: center;
   font-size: 15px;
   line-height: 20px;
+}
+
+@media (max-width: 415px) {
+  .programas-detalhes p {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 
 .programas-detalhes1 p {
@@ -252,14 +584,33 @@
   line-height: 20px;
 }
 
+@media (max-width: 415px) {
+  .programas-detalhes1 p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
 .programas-detalhes img {
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
+@media (max-width: 321px) {
+  .programas-detalhes img {
+    display: none;
+  }
+}
+
 .programas-detalhes1 img {
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 321px) {
+  .programas-detalhes1 img {
+    display: none;
+  }
 }
 
 .programa-inscricao input:checked + label + .programas-detalhes {

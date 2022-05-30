@@ -109,6 +109,25 @@
     font-size: 20px;
     line-height: 25px;
   }
+  .nome-titu1 {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .nome-titu1 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 300px) {
+  .nome-titu1 {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 
 @media (max-width: 300px) {
