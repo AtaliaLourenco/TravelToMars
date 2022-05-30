@@ -95,6 +95,15 @@
   margin-bottom: 5px;
 }
 
+.nome-titu1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: block;
+  margin-bottom: 5px;
+}
+
 @media (max-width: 500px) {
   .nome-titu {
     font-size: 20px;
