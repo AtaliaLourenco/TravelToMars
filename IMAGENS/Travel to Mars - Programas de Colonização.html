@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <!-- saved from url=(0035)http://127.0.0.1:5500/contacto.html -->
-<html lang="pt-pt"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html lang="pt-pt">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel to Mars - Programas de Colonização</title>
@@ -9,25 +12,36 @@
 
   <link rel="stylesheet" href="./Travel to Mars - Programas de Colonização_files/style.css">
   <link rel="icon" href="http://127.0.0.1:5500/IMAGENS/favicon.svg" type="image/svg+xml">
-<style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style></head>
+  <style type="text/css">
+    @font-face {
+      font-family: Roboto;
+      src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
+    }
+  </style>
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
+
+  <link rel="icon" href="./IMAGENS/favicon.svg" wigth="98" height="100" type="image/svg+xml">
+</head>
 
 <body>
   <div class="slider">
 
-    
-      <div class="header">
-        <a href="http://127.0.0.1:5500/index.html">
-          <img src="./Travel to Mars - Programas de Colonização_files/logo.svg" alt="Logo TravelToMars">
-        </a>
-        <nav aria-label="primaria">
-          <ul class="header-menu">
-            <li> <a class="link" href="http://127.0.0.1:5500/programas.html"> Programas</a></li>
-            <li> <a class="link" href="http://127.0.0.1:5500/excursao.html"> Excursão</a></li>
-            <li> <a class="link" href="http://127.0.0.1:5500/contacto.html"> Contacto</a></li>
-          </ul>
-        </nav>
-      </div>
-    
+
+    <div class="header">
+      <a href="http://127.0.0.1:5500/index.html">
+        <img src="./Travel to Mars - Programas de Colonização_files/logo.svg" alt="Logo TravelToMars">
+      </a>
+      <nav aria-label="primaria">
+        <ul class="header-menu">
+          <li> <a class="link" href="http://127.0.0.1:5500/programas.html"> Programas</a></li>
+          <li> <a class="link" href="http://127.0.0.1:5500/excursao.html"> Excursão</a></li>
+          <li> <a class="link" href="http://127.0.0.1:5500/contacto.html"> Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
 
     <div class="slides">
       <input type="radio" name="radio-btn" id="radio1">
@@ -156,49 +170,54 @@
           <div class="footer-copi">
             <img class="copy" src="./Travel to Mars - Programas de Colonização_files/copi.svg" alt="Copy">
             <p class="direito-footer">Alguns direitos reservados.</p>
-        </div></ul>
+          </div>
+        </ul>
 
 
       </div>
 
-  </div></footer>
-<!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
+    </div>
+  </footer>
+  <!-- Code injected by live-server -->
+  <script type="text/javascript">
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+          }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == 'reload') window.location.reload();
+          else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          console.log('Live reload enabled.');
+          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+      })();
+    }
+    else {
+      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
 	// ]]>
-</script>
+  </script>
 
-</body></html>
+  <script src="./script.js"></script>
+</body>
+
+</html>

@@ -136,7 +136,9 @@
   text-align: center;
 }
 
-.header-menu a:hover {
+.header-menu a:hover,
+.header-menu a.ativo {
+  color: #d83b09;
   text-decoration: underline;
 }
 

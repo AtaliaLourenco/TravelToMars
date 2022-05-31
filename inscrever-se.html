@@ -8,8 +8,14 @@
   <title>Travel to Mars - Inscrever-se</title>
   <meta nome="description" content="Depois de anos de pesquisas e desenvolvimentos, o sonho de colonizar Marte se tornou real. O Planeta Vermelho é habitável! Já existem colônias instaladas em Marte. Você pode ser um deles. Se inscreva nos nossos programas de Colonização de Marte, e faça parte dessa aventura.">
 
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="./IMAGENS/favicon.svg" type="image/svg+xml">
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
+
+  <link rel="icon" href="./IMAGENS/favicon.svg" wigth="98" height="100" type="image/svg+xml">
 </head>
 
 <body>
@@ -28,6 +34,11 @@
           </ul>
         </nav>
       </div>
+      <script>
+        document.documentElement.classList.add('js');
+      </script>
+
+      <link rel="icon" href="./IMAGENS/favicon.svg" wigth="98" height="100" type="image/svg+xml">
     </head>
 
     <div class="slides">
@@ -75,21 +86,21 @@
         </div>
         <div class="inscricao-conteudo" id="inscricao-programas">
           <h2 class="detalhe"> Escolha o Programa: </h2>
-          <input type="radio" id="programa-de-pesquisa" name="produto" value="Programa de Pesquisa">
+          <input type="radio" id="programa-de-pesquisa" name="produto" value="programa-de-pesquisa">
           <label for="programa-de-pesquisa">Programa de Pesquisa</label>
           <div class="programas-detalhes">
             <p> <strong>Programa de Pesquisa</strong> <br>
               Dedicado à evolução das colônias e coleta de dados, utilizando recursos minerais encontrados em Marte.</p>
             <img src="./IMAGENS/pesquisa-formulario.png" alt="Programa de Pesquisa">
           </div>
-          <input type="radio" id="programa-de-trabalho" name="produto" value="Programa de Trabalho">
+          <input type="radio" id="programa-de-trabalho" name="produto" value="programa-de-trabalho">
           <label for="programa-de-trabalho">Programa de Trabalho</label>
           <div class="programas-detalhes">
             <p> <strong>Programa de Trabalho</strong> <br>
               Dedicado a desenvolver melhorias contínuas nas capacidades técnicas e robóticas.</p>
             <img src="./IMAGENS/trabalho-formulario.png" alt="Programa de Pesquisa">
           </div>
-          <input type="radio" id="programa-de-colonizacao" name="produto" value="Programa de Colonização">
+          <input type="radio" id="programa-de-colonizacao" name="produto" value="programa-de-colonizacao">
           <label for="programa-de-colonizacao">Programa de Colonização</label>
           <div class="programas-detalhes">
             <p> <strong>Programa de Colonização</strong> <br>
@@ -101,21 +112,21 @@
 
         <div class="inscricao-conteudo" id="inscricao-excursao">
           <h2> Escolha a Excursão: </h2>
-          <input type="radio" id="pacote-base" name="produto" value="PACOTE BASE">
+          <input type="radio" id="pacote-base" name="produto" value="pacote-base">
           <label for="pacote-base">PACOTE BASE <span>$1.000.000</span> </label>
           <div class="programas-detalhes1">
             <p> <strong>Pacote Base</strong> <br>
               Inclui a viagem de ida e volta, alimentação e convivência com os colonos.</p>
             <img src="./IMAGENS/base-formulario.png" alt="Programa de Pesquisa">
           </div>
-          <input type="radio" id="pacote-intermediario" name="produto" value="PACOTE INTERMEDIÁRIO">
+          <input type="radio" id="pacote-intermediario" name="produto" value="pacote-intermediario">
           <label for="pacote-intermediario">PACOTE INTERMEDIÁRIO <span>$10.000.000</span></label>
           <div class="programas-detalhes1">
             <p> <strong>Pacote Intermediário</strong> <br>
               Inclui excursão para outras colônias, acompanhamento de pesquisas e colheita nas estufas.</p>
             <img src="./IMAGENS/medio-formulario.png" alt="Programa de Pesquisa">
           </div>
-          <input type="radio" id="pacote-vip" name="produto" value="PACOTE VIP">
+          <input type="radio" id="pacote-vip" name="produto" value="pacote-vip">
           <label for="pacote-vip">PACOTE VIP <span>$100.000.000</span></label>
           <div class="programas-detalhes1">
             <p> <strong>Pacote Vip</strong> <br>
@@ -241,6 +252,7 @@
       </div>
 
   </footer>
+  <script src="./script.js"></script>
 </body>
 
 </html>
