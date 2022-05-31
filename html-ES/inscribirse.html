@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel to Mars - Programa de Colonización</title>
-  <meta nome="description" content="Detalles sobre el programa de Colonización y todo lo que necesitas saber para aplicar.">
+  <title>Travel to Mars - Inscribirse</title>
+  <meta nome="description" content="Formulario de solicitud de programas y excursiones a Marte.">
 
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" href="../IMAGENS/favicon.svg" type="image/svg+xml">
@@ -56,43 +56,129 @@
     <p class="p-sub">Después de años de investigación y desarrollo,<br> el sueño de colonizar Marte se ha hecho realidad. <br> ¡El Planeta Rojo es habitable! Ya hay colonias<br> instaladas en Marte. Sé parte de esta aventura.</p>
   </div>
 
-  <section>
-    <h1 class="titu-pesquisa-programa">Programas de Colonización de Marte</h1>
-    <div class="mais-sobre-pesquisa">
-      <div>
-        <img class="img-mais-sobre" src="../IMAGENS/programa-colonizacao-mais-sobre.jpg" alt="Programas de Pesquisa">
-      </div>
-      <div class="container-mais-sobre">
-        <h3 class="subi-mais-sobre">Programa de Colonización</h3>
-        <p class="p-mais-sobre">El Programa de Colonización es totalmente diferente a otros programas, está dedicado a la multiplicación de la vida humana en Marte, en este programa pueden postular familias o parejas jóvenes, se simplifica el proceso, se mejorará la fertilidad de las parejas y su capacidad de convivencia en grupo. analizada pequeña. Para los niños, Marte tiene toda una estructura con escuelas para que la vida se desarrolle con conocimientos. El Programa de Colonización de Marte solo puede ser permanente, y los colonos, una vez instalados en Marte, no tendrán opción de regresar a la Tierra. El programa establece que cada pareja tiene la obligación de procrear con al menos 2 habitantes durante su vida. También tener que someterse a varias pruebas de fertilidad periódicamente. Cada colono tendrá que responder ante su presidente y tiene la obligación de trabajar o desarrollar alguna actividad que aporte a las colonias en general. Para ese programa predice que cualquier colono que abandone el programa mientras esté en Marte será condenado a muerte. Todo niño nacido en Marte pertenece a la colonia, es decir, nunca podrá salir de Marte, ya que no se sabe cómo reaccionará el organismo marciano ante otros planetas o la Tierra.</p>
-        <a class="botao-mais-sobre" href="./inscribirse.html">inscribirse</a>
+  <div class="titulo-principal">
+    <h2>Formulario de Aplicación:</h2>
+  </div>
 
+  <main class="form-inscricao">
+    <form class="form2" id="inscricao" action="./">
+      <div class="programa-inscricao grid1">
+
+        <h2 class="titu-form">¿ PROGRAMAS O EXCURSIONES ?</h2>
+        <input class="programas" type="radio" id="programas" name="tipo" value="programas">
+        <label for="programas">Programas</label>
+
+
+        <input type="radio" id="excursao" name="tipo" value="excursao">
+        <label for="excursao">Excursiones</label>
+        <div class="linha">
+        </div>
+        <div class="inscricao-conteudo" id="inscricao-programas">
+          <h2 class="detalhe"> Elija el programa: </h2>
+          <input type="radio" id="programa-de-pesquisa" name="produto" value="Programa de Pesquisa">
+          <label for="programa-de-pesquisa">Programa de Investigación</label>
+          <div class="programas-detalhes">
+            <p> <strong>Programa de Investigación</strong> <br>
+              Dedicado a la evolución de colonias y recopilación de datos, utilizando recursos minerales encontrados en Marte.</p>
+            <img src="../IMAGENS/pesquisa-formulario.png" alt="Programa de Pesquisa">
+          </div>
+          <input type="radio" id="programa-de-trabalho" name="produto" value="Programa de Trabalho">
+          <label for="programa-de-trabalho">Programa De Trabajo</label>
+          <div class="programas-detalhes">
+            <p> <strong>Programa De Trabajo</strong> <br>
+              Dedicado a desarrollar mejoras continuas en capacidades técnicas y robóticas.</p>
+            <img src="../IMAGENS/trabalho-formulario.png" alt="Programa de Pesquisa">
+          </div>
+          <input type="radio" id="programa-de-colonizacao" name="produto" value="Programa de Colonização">
+          <label for="programa-de-colonizacao">Programa de Colonización</label>
+          <div class="programas-detalhes">
+            <p> <strong>Programa de Colonización</strong> <br>
+              Dedicado a establecer una colonia en Marte para el crecimiento de la población y la exploración del planeta. </p>
+            <img src="../IMAGENS/colonizacao-formulario.png" alt="Programa de Pesquisa">
+          </div>
+
+        </div>
+
+        <div class="inscricao-conteudo" id="inscricao-excursao">
+          <h2>Elige la Excursión: </h2>
+          <input type="radio" id="pacote-base" name="produto" value="PACOTE BASE">
+          <label for="pacote-base">PAQUETE BASE <span>$1.000.000</span> </label>
+          <div class="programas-detalhes1">
+            <p> <strong>Paquete Base</strong> <br>
+              Incluye el viaje de ida y vuelta, alimentación y convivencia con los pobladores.</p>
+            <img src="../IMAGENS/base-formulario.png" alt="Programa de Pesquisa">
+          </div>
+          <input type="radio" id="pacote-intermediario" name="produto" value="PACOTE INTERMEDIÁRIO">
+          <label for="pacote-intermediario">PAQUETE INTERMEDIO <span>$10.000.000</span></label>
+          <div class="programas-detalhes1">
+            <p> <strong>Paquete Intermedio</strong> <br>
+              Incluye excursiones a otras colonias, seguimiento de la investigación y cosecha en los invernaderos.</p>
+            <img src="../IMAGENS/medio-formulario.png" alt="Programa de Pesquisa">
+          </div>
+          <input type="radio" id="pacote-vip" name="produto" value="PACOTE VIP">
+          <label for="pacote-vip">PAQUETE VIP <span>$100.000.000</span></label>
+          <div class="programas-detalhes1">
+            <p> <strong>Paquete Vip</strong> <br>
+              Incluye participación en investigaciones y exploraciones planetarias con todo el equipo.</p>
+            <img src="../IMAGENS/vip-formulario.png" alt="Programa de Pesquisa">
+          </div>
+
+        </div>
       </div>
-    </div>
-  </section>
+
+      <div class="formulario-dados-pessoais grid2">
+        <h2 class="titu-form">INFORMACIÓN PERSONAL</h2>
+        <div class="collun">
+          <div>
+            <label class="nome-titu1" for="nome">Nombre</label>
+            <input type="text" id="nome" name="nome-usuario" placeholder="Nombre">
+          </div>
+          <div>
+            <label class="nome-titu1" for="apelido">Apelido</label>
+            <input type="text" id="apelido" name="apelido" placeholder="Apelido">
+          </div>
+          <div class="col-2">
+            <label class="nome-titu1" for="nif">NIF</label>
+            <input type="text" id="nif" name="nif" placeholder="000.000.000">
+          </div>
+          <div class="nome-titu1 col-2">
+            <label class="nome-titu1" for=" email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="contato@email.com">
+          </div>
+          <div class="nome-titu1 col-2">
+            <label class="nome-titu1" for="mensagem">¿Por qué deberías ser seleccionado?</label>
+            <textarea rows="5" id="mensagem" name="mensagem" placeholder="Escriba un breve resumen de por qué usted debe ser seleccionado."></textarea>
+          </div>
+          <button class="botao-contato1 col-2">enviar</button>
+        </div>
+      </div>
+    </form>
+  </main>
+
 
   <div class="why-background">
     <article class="why-marte-principal">
       <h2 class="why-marte-lista">¿Por qué elegimos Marte?</h2>
       <ul>
         <li>
-          <img class="img-why-marte1-1" src="../IMAGENS/why-mart1.jpg" alt="Pesquisa">
+          <img class="img-why-marte1" src="../IMAGENS/why-mart1.jpg" alt="Pesquisa">
           <h3 class="h3-titu-why">Agua en Marte</h3>
           <p class="p-lista-why">Es posible extraer agua líquida del hielo del suelo y se puede generar oxígeno a partir del dióxido de carbono que constituye la mayor parte de la atmósfera de Marte.</p>
         </li>
         <li>
-          <img class="img-why-marte2-2" src="../IMAGENS/why-mart2.jpg" alt="Pesquisa">
+          <img class="img-why-marte2" src="../IMAGENS/why-mart2.jpg" alt="Pesquisa">
           <h3 class="h3-titu-why">Futuro de la raza humana</h3>
           <p class="p-lista-why">Las colonias en Marte son capaces de mantener nuestra población de manera permanente, brindan a nuestra especie la máxima esperanza de vida. Vivir en Marte proporciona otro plan de respaldo para el futuro de la raza humana</p>
         </li>
         <li>
-          <img class="img-why-marte3-3" src="../IMAGENS/why-mart3.jpg" alt="Pesquisa">
+          <img class="img-why-marte3" src="../IMAGENS/why-mart3.jpg" alt="Pesquisa">
           <h3 class="h3-titu-why">Exploración Planetaria </h3>
           <p class="p-lista-why">Al igual que en la Tierra, Marte tiene mucha riqueza en óxidos metálicos, como hierro, silicio y aluminio, y con la tecnología adecuada es posible explotar estos recursos y desarrollar nuevas tecnologías.</p>
         </li>
       </ul>
     </article>
   </div>
+
   <footer class="footer-bg">
     <img class="img-footer" src="../IMAGENS/footer.jpg" alt="">
     <div class="footer-container">
