@@ -8,14 +8,20 @@
   <title>Travel to Mars - Programas de Colonización</title>
   <meta nome="description" content="Después de años de investigación y desarrollo, el sueño de colonizar Marte se ha hecho realidad. ¡El Planeta Rojo es habitable! Ya hay colonias instaladas en Marte. Tu podrías ser uno de ellos. Apúntate a nuestros programas de Colonización de Marte y sé parte de esta aventura.">
 
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preload" href="../css/style.new.css" as="style">
+  <link rel="stylesheet" href="../css/style.new.css">
+
   <link rel="icon" href="../IMAGENS/favicon.svg" type="image/svg+xml">
+
   <script>
     document.documentElement.classList.add('js');
   </script>
 
-  <link rel="icon" href="./IMAGENS/favicon.svg" wigth="98" height="100" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono:wght@400;500;700&family=Space+Mono:wght@400;700&family=Turret+Road:wght@700&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -34,11 +40,6 @@
           </ul>
         </nav>
       </div>
-      <script>
-        document.documentElement.classList.add('js');
-      </script>
-
-      <link rel="icon" href="./IMAGENS/favicon.svg" wigth="98" height="100" type="image/svg+xml">
     </head>
 
     <div class="slides">
@@ -63,8 +64,8 @@
 
   </div>
   <div class="subtitulo">
-    <h1 class="h1-sub"> Bienvenido al año 2100.</h1>
-    <p class="p-sub">Después de años de investigación y desarrollo,<br> el sueño de colonizar Marte se ha hecho realidad. <br> ¡El Planeta Rojo es habitable! Ya hay colonias<br> instaladas en Marte. Sé parte de esta aventura.</p>
+    <h1 class="h1-sub fadeInLeft" data-anime="200"> Bienvenido al año 2100.</h1>
+    <p class="p-sub fadeInLeft" data-anime="200">Después de años de investigación y desarrollo,<br> el sueño de colonizar Marte se ha hecho realidad. <br> ¡El Planeta Rojo es habitable! Ya hay colonias<br> instaladas en Marte. Sé parte de esta aventura.</p>
   </div>
 
   <article class="programa-lista-principal">
@@ -93,8 +94,8 @@
 
   <article class="planeta-vermelho">
     <img class="img-planeta-red" src="../IMAGENS/o-planeta-vermelho.jpg" alt="O Planeta Vermelho">
-    <h3 class="titu-planeta-red">El Planeta Rojo</h3>
-    <p class="p-planeta-red">Geológicamente, Marte y la Tierra comparten muchos rasgos comunes y ambos se conocen como planetas terrestres o rocosos. Marte gira alrededor del sol y tiene dos lunas pequeñas. Los programas de colonización en Marte nos permiten habitar y desarrollar vida en este planeta, reduciendo los riesgos de extinción de la vida humana, pudiendo también evolucionar nuestra especie y hacernos capaces de desarrollar tecnologías para explorar el universo y tomar contacto con otros seres vivos dispersos. a través del universo.
+    <h3 class="titu-planeta-red fadeInLeft" data-anime="200">El Planeta Rojo</h3>
+    <p class="p-planeta-red fadeInLeft" data-anime="600">Geológicamente, Marte y la Tierra comparten muchos rasgos comunes y ambos se conocen como planetas terrestres o rocosos. Marte gira alrededor del sol y tiene dos lunas pequeñas. Los programas de colonización en Marte nos permiten habitar y desarrollar vida en este planeta, reduciendo los riesgos de extinción de la vida humana, pudiendo también evolucionar nuestra especie y hacernos capaces de desarrollar tecnologías para explorar el universo y tomar contacto con otros seres vivos dispersos. a través del universo.
 
   </article>
 
@@ -122,8 +123,8 @@
   <article class="excursao-home">
     <h3 class="titu-excursao-home">Excursiones a Marte</h3>
     <img class="img-excursao-home" src="../IMAGENS/excursao-home.jpg" alt="Excursões">
-    <p class="p-excursao-home">Además de los programas de Colonización de Marte, también existe la posibilidad de realizar excursiones a Marte y vivir la experiencia marciana por tu cuenta. Durante la excursión la tripulación conocerá la rutina de los colonos e investigadores en Marte, además podrán contribuir a la investigación y registrar todo en videos y fotos. </p>
-    <a class="botao4" href="./excursao-IN.html">Saber más</a>
+    <p class="p-excursao-home fadeInRight" data-anime="200">Además de los programas de Colonización de Marte, también existe la posibilidad de realizar excursiones a Marte y vivir la experiencia marciana por tu cuenta. Durante la excursión la tripulación conocerá la rutina de los colonos e investigadores en Marte, además podrán contribuir a la investigación y registrar todo en videos y fotos. </p>
+    <a class="botao4 fadeInRight" data-anime="600" href="./excursao-IN.html">Saber más</a>
   </article>
 
   <article class="mensagem-colonos">
@@ -213,6 +214,7 @@
       </div>
 
   </footer>
+  <script src="../plugin/simple-anime.js"></script>
   <script src="../script.js"></script>
 </body>
 

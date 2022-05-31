@@ -8,15 +8,19 @@
   <title>Travel to Mars - Colonization Programs</title>
   <meta nome="description" content="After years of research and development, the dream of colonizing Mars has come true. The Red Planet is habitable! There are already colonies installed on Mars. You could be one of them. Sign up for our Mars Colonization programs and be part of this adventure.">
 
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preload" href="../css/style.new.css" as="style">
+  <link rel="stylesheet" href="../css/style.new.css">
 
-  <link rel="icon" href="../IMAGENS/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./IMAGENS/favicon.svg" wigth="98" height="100" type="image/svg+xml">
   <script>
     document.documentElement.classList.add('js');
   </script>
 
-  <link rel="icon" href="./IMAGENS/favicon.svg" wigth="98" height="100" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono:wght@400;500;700&family=Space+Mono:wght@400;700&family=Turret+Road:wght@700&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -35,11 +39,6 @@
           </ul>
         </nav>
       </div>
-      <script>
-        document.documentElement.classList.add('js');
-      </script>
-
-      <link rel="icon" href="./IMAGENS/favicon.svg" wigth="98" height="100" type="image/svg+xml">
     </head>
 
     <div class="slides">
@@ -64,8 +63,8 @@
 
   </div>
   <div class="subtitulo">
-    <h1 class="h1-sub"> Welcome to year 2100.</h1>
-    <p class="p-sub">After years of research and development,<br> the dream of colonizing Mars has come true. <br> The Red Planet is habitable! There are already <br> colonies stablished on Mars. Be part of this adventure.</p>
+    <h1 class="h1-sub fadeInLeft" data-anime="200"> Welcome to year 2100.</h1>
+    <p class="p-sub fadeInLeft" data-anime="200">After years of research and development,<br> the dream of colonizing Mars has come true. <br> The Red Planet is habitable! There are already <br> colonies stablished on Mars. Be part of this adventure.</p>
   </div>
 
   <article class="programa-lista-principal">
@@ -94,8 +93,8 @@
 
   <article class="planeta-vermelho">
     <img class="img-planeta-red" src="../IMAGENS/o-planeta-vermelho.jpg" alt="O Planeta Vermelho">
-    <h3 class="titu-planeta-red">The Red Planet</h3>
-    <p class="p-planeta-red">Geologically, Mars and Earth share many common traits, and both are known as terrestrial or rocky planets. Mars orbits the sun and has two small moons. The colonization programs on Mars allow us to inhabit and develop life on this planet, reducing the risks of extinction of human life, and can also evolve our species and make us capable of developing technologies to explore the universe and make contact with other living beings scattered across the universe.
+    <h3 class="titu-planeta-red fadeInLeft" data-anime="200">The Red Planet</h3>
+    <p class="p-planeta-red fadeInLeft" data-anime="600">Geologically, Mars and Earth share many common traits, and both are known as terrestrial or rocky planets. Mars orbits the sun and has two small moons. The colonization programs on Mars allow us to inhabit and develop life on this planet, reducing the risks of extinction of human life, and can also evolve our species and make us capable of developing technologies to explore the universe and make contact with other living beings scattered across the universe.
 
   </article>
 
@@ -123,8 +122,8 @@
   <article class="excursao-home">
     <h3 class="titu-excursao-home">Excursions to Mars</h3>
     <img class="img-excursao-home" src="../IMAGENS/excursao-home.jpg" alt="Excursões">
-    <p class="p-excursao-home">In addition to the Mars Colonization programs, there is also the possibility of taking excursions to Mars and living the Martian experience on your own. During the excursion the crew will get to know the routine of the colonists and researchers on Mars, they will also be able to contribute to the research and record everything in videos and photos. </p>
-    <a class="botao4" href="./excursion-IN.html">Know more</a>
+    <p class="p-excursao-home fadeInRight" data-anime="200">In addition to the Mars Colonization programs, there is also the possibility of taking excursions to Mars and living the Martian experience on your own. During the excursion the crew will get to know the routine of the colonists and researchers on Mars, they will also be able to contribute to the research and record everything in videos and photos. </p>
+    <a class="botao4 fadeInRight" data-anime="600" href="./excursion-IN.html">Know more</a>
   </article>
 
   <article class="mensagem-colonos">
@@ -214,6 +213,7 @@
       </div>
 
   </footer>
+  <script src="../plugin/simple-anime.js"></script>
   <script src="../script.js"></script>
 </body>
 
