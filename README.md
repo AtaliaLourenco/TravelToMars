@@ -10,11 +10,20 @@ Come to the year 2100 and colonize Mars! <br><br>
 Website with futuristic design developed in HTML, CSS and JAVASCRIPT in PT/EN/ES. <br>
 (PS: All information on this site is fictitious, and the site is designed to show knowledge and personal portfolio).
 
+## Design 
+![Web 1](https://github.com/AtaliaLourenco/TOPSSeriesdaNetflix/blob/main/IMG-EDIT/Travel-to-Mars.png)
 
 ## Layout Web
 ![Web 1](https://github.com/AtaliaLourenco/TravelToMars/blob/main/Fonts/Home.png)
 
 # Used Technology
+
+## Design 
+- Figma
+- Adobe XD
+- Adobe Illustrator
+- Photopea
+
 ## Front End
 - HTML
 - CSS
